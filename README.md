@@ -1,4 +1,20 @@
-**[CollectView](https://github.com/contiki-os/contiki/tree/master/tools/collect-view)** is a Contiki OS Java tool that makes possible to program and deploy a Contiki wireless sensor network and collect loads of information without even having to start programming. The main goal of this project was to add support in ContikiOS for [this](http://www.advanticsys.com/shop/wireless-sensor-networks-802154-sensor-boards-c-7_5.html) set of attachable sensor boards for the WSN device [CM5000](http://www.advanticsys.com/shop/mtmcm5000msp-p-14.html), a popular device based on the original open-source TelosB / Tmote Sky platform. The basic outlined workflow involved three steps:
+sky-boards-collect
+==================
+
+OVERVIEW
+--------
+
+**[CollectView](https://github.com/contiki-os/contiki/tree/master/tools/collect-view)** is a Contiki OS Java tool that makes possible to program and deploy a Contiki wireless sensor network and collect loads of information without even having to start programming. The CollectView Java application only supports the Tmote sky platform. This is an extension to the CollectView application so that it works with any WSN platform supported by Contiki OS. See [this](https://github.com/ediazal/sky-boards-collect/wiki/AddPlatform) Wiki page for a brief guideline.
+
+This work was part of a final year project about Wireless Sensor Networks on Contiki OS.
+
+For further information about Contiki OS, please refer to Contiki [website](http://www.contiki-os.org/) and [wiki](https://github.com/contiki-os/contiki/wiki).
+
+
+DETAILS
+-------
+
+The main goal of this project was to add support in ContikiOS for [this](http://www.advanticsys.com/shop/wireless-sensor-networks-802154-sensor-boards-c-7_5.html) set of attachable sensor boards for the WSN device [CM5000](http://www.advanticsys.com/shop/mtmcm5000msp-p-14.html), a popular device based on the original open-source TelosB / Tmote Sky platform. The basic outlined workflow involved three steps:
 
 #### 1. Drivers ####
 
@@ -26,11 +42,6 @@ I also added other features to the CollectView application:
 [Screenshots](https://github.com/ediazal/sky-boards-collect/wiki/Screenshots).
 
 
-# About #
-
-This work was part of a final year project about Wireless Sensor Networks on Contiki OS.
-
-For further information about Contiki OS, please refer to Contiki [website](http://www.contiki-os.org/) and [wiki](https://github.com/contiki-os/contiki/wiki).
 
 
 
